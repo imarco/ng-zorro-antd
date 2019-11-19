@@ -29,7 +29,7 @@ import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 | `[nzPlacement]` | placement of pop menu | `'bottomLeft' \| 'bottomCenter' \| 'bottomRight' \| 'topLeft' \| 'topCenter' \| 'topRight'` | `'bottomLeft'` |
 | `[nzTrigger]` | the trigger mode which executes the drop-down action | `'click' \| 'hover'` | `'hover'` |
 | `[nzClickHide]` | whether hide menu when click | `boolean` | `true` |
-| `[nzVisible]` | whether the dropdown menu is visible, double binding | `boolean` | - |
+| `[(nzVisible)]` | whether the dropdown menu is visible, please use double binding | `boolean` | - |
 | `[nzBackdrop]` | whether the dropdown has a backdrop when `nzTrigger` is `click` | `boolean` | `true` |
 | `[nzOverlayClassName]` | Class name of the dropdown root element | `string` | - |
 | `[nzOverlayStyle]` | Style of the dropdown root element | `object` | - |
